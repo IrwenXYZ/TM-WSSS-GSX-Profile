@@ -1,10 +1,11 @@
 # TaiModel's Singapore Changi Airport GSX Profile
-Enhance your Changi Airport experience with this GSX profile, featuring custom vehicle positions, aircraft-specific parking spots, VATSIM compliant pushback procedures, and much more. GSX Pro 3.3.3 or later must be used for this profile.
+This profile is heavily work in progress. GSX Pro 3.3.3 or later must be used for this profile.
 
 Like my work? Support me at https://ko-fi.com/irwenxyz
 
 ## What this profile includes
-- NOTHING
+- Custom named gates
+- Accurate wingspan for all gates
 
 ## Installation
 1. Ensure Microsoft Flight Simulator and GSX Pro are closed
@@ -21,5 +22,5 @@ Singapore Aerodrome Resources (https://linktr.ee/sinvacc)
 Please note that there has been major airspace and procedure changes as of AIRAC 2403. If you do not have AIRAC 2403 or after, please inform the controller!
 
 ## References
-VDGS - page 439, 484 of [20 February 2025 WSSS AIP](https://aim-sg.caas.gov.sg/wp-content/uploads/aip/AIP%20SINGAPORE%20-%2020%20FEB%202025.pdf?s=AAB93B472F6906C6644DAF22227A6ACFC316303D)  
+VDGS - WSSS AIP
 Pushback Procedures - https://pushback.sinvacc.org
