@@ -14,7 +14,7 @@ Like my work? Support me at https://ko-fi.com/irwenxyz
 
 ## IMPORTANT NOTES
 2. Please enable "Automated reposition" in GSX settings.
-3. Not all pushback procedures might be true to life. If you have any reference for procedures that can be improved to be more real to life, please open an issue on Github.
+3. Not all pushback procedures might be true to life. If you have any reference for procedures that can be improved to be more real to life, please open an issue on Github (https://github.com/IrwenXYZ/TM-WSSS-GSX-Profile).
 
 ## Flying in or out of WSSS? Take note of the following!
 Singapore Aerodrome Resources (https://linktr.ee/sinvacc)
