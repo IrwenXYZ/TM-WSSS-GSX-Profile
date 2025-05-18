@@ -9,24 +9,26 @@ terminal1Delta = CustomizedName("Terminal 1 D Gates | Gate D#§", 1)
 terminal2Echo = CustomizedName("Terminal 2 E Gates | Gate E#§", 2)
 terminal2Foxtrot = CustomizedName("Terminal 2 F Gates | Gate F#§", 2)
 terminal4Golf = CustomizedName("Terminal 4 G Gates | Gate G#§", 4)
-eastRemote = CustomizedName("East Remote Apron (200-203) | Stand #§", 7)
-southEastRemote = CustomizedName("South East Remote Apron (205-208) | Stand #§", 8)
-northRemote = CustomizedName("North Remote Apron (300-310, 951-954) | Stand #§", 9)
-northEastRemote = CustomizedName("North East Remote Apron (400-404) | Stand #", 10)
-southApron = CustomizedName("South Apron (461-487) | Stand #", 11)
+eastRemote = CustomizedName("East Remote Apron (200-203) | Stand #§", 10)
+southEastRemote = CustomizedName("South East Remote Apron (205-208) | Stand #§", 11)
+northRemote = CustomizedName("North Remote Apron (300-310, 951-954) | Stand #§", 12)
+northEastRemote = CustomizedName("North East Remote Apron (400-404) | Stand #", 13)
+southApron = CustomizedName("South Apron (461-487) | Stand #", 14)
 westCargo = CustomizedName("West Cargo Apron (502-517) | Stand #", 5)
 eastCargo = CustomizedName("East Cargo Apron (600-605) | Stand #", 6)
-eastService = CustomizedName("East Service Apron (606, 609) | Stand #", 12)
-acehub = CustomizedName("Acehub (611-612) | Stand #", 13)
-siaHanger2 = CustomizedName("SIA Hanger 2 | Stand #", 14)
+eastService = CustomizedName("East Service Apron (606, 609) | Stand #", 7)
+acehub = CustomizedName("Acehub (611-612) | Stand #", 9)
+siaHanger2 = CustomizedName("SIA Hanger 2 | Stand #", 15)
+changiAirbaseEast = CustomizedName("Changi Airbase East | Stand #", 16)
+changiAirbaseWest = CustomizedName("Changi Airbase West | Stand #", 17)
 
 parkings = {
     E_PARKING : {
         None: (southApron, ),
-        "462L": (CustomizedName("South Apron (461-487) | Stand 462L", 11), ),
-        "462R": (CustomizedName("South Apron (461-487) | Stand 462R", 11), ),
-        "463L": (CustomizedName("South Apron (461-487) | Stand 463L", 11), ),
-        "463R": (CustomizedName("South Apron (461-487) | Stand 463R", 11), ),
+        "462L": (CustomizedName("South Apron (461-487) | Stand 462L", 14), ),
+        "462R": (CustomizedName("South Apron (461-487) | Stand 462R", 14), ),
+        "463L": (CustomizedName("South Apron (461-487) | Stand 463L", 14), ),
+        "463R": (CustomizedName("South Apron (461-487) | Stand 463R", 14), ),
         600: (eastCargo, ),
         "600R": (CustomizedName("East Cargo Apron (600-605) | Stand 600R", 6), ),
         "600L": (CustomizedName("East Cargo Apron (600-605) | Stand 600L", 6), ),
@@ -61,6 +63,9 @@ parkings = {
     GATE_G : {
         None : (terminal4Golf, )
     },
+    GATE_H : {
+        None : (changiAirbaseEast, ),
+    },
     N_PARKING : {
         None : (northRemote, ),
     },
@@ -68,8 +73,8 @@ parkings = {
         None : (siaHanger2, ),
     },
     0 : {
-        None : (CustomizedName("Extra Gate #", ), ),
-        0 : (CustomizedName("SASCO Hanger", ), ),
+        None : (changiAirbaseWest, ),
+        0 : (CustomizedName("SASCO Hanger | Stand 1", ), ),
         200 : (eastRemote, ),
         "200L": (eastRemote, ),
         "200R": (eastRemote, ),
