@@ -22,6 +22,21 @@ siaHanger2 = CustomizedName("SIA Hanger 2 | Stand #", 15)
 changiAirbaseEast = CustomizedName("Changi Airbase East | Stand #", 16)
 changiAirbaseWest = CustomizedName("Changi Airbase West | Stand #", 17)
 
+@AlternativeStopPositions
+def terminalOffset(aircraftData):
+    offset = {
+        0: 0,
+        310: 8.2,
+        320: 8.3,
+        380: 14.7,
+        747: 14,
+    }
+
+    try:
+        return Distance.fromMeters(offset.get(aircraftData.idMajor))
+    except:
+        return Distance.fromMeters(0)
+
 parkings = {
     E_PARKING : {
         None: (southApron, ),
@@ -43,25 +58,25 @@ parkings = {
         612: (acehub, ),
     },
     GATE_A : {
-        None : (terminal3Alpha, )
+        None : (terminal3Alpha, terminalOffset),
     },
     GATE_B : {
-        None : (terminal3Bravo, )
+        None : (terminal3Bravo, ),
     },
     GATE_C : {
-        None : (terminal1Charlie, )
+        None : (terminal1Charlie, ),
     },
     GATE_D : {
-        None : (terminal1Delta, )
+        None : (terminal1Delta, ),
     },
     GATE_E : {
-        None : (terminal2Echo, )
+        None : (terminal2Echo, ),
     },
     GATE_F : {
-        None : (terminal2Foxtrot, )
+        None : (terminal2Foxtrot, ),
     },
     GATE_G : {
-        None : (terminal4Golf, )
+        None : (terminal4Golf, ),
     },
     GATE_H : {
         None : (changiAirbaseEast, ),
