@@ -76,7 +76,7 @@ parkings = {
         None : (terminal2Foxtrot, terminalOffset),
     },
     GATE_G : {
-        None : (terminal4Golf, ),
+        None : (terminal4Golf, terminalOffset),
     },
     GATE_H : {
         None : (changiAirbaseEast, ),
