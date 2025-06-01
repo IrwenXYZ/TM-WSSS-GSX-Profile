@@ -111,10 +111,10 @@ parkings = {
         404 : (northEastRemote, ),
     },
     W_PARKING : {
-        None : (westCargo, ),
-        "516L": (CustomizedName("West Cargo Apron (502-517) | Stand 516L", 5), ),
-        "516R": (CustomizedName("West Cargo Apron (502-517) | Stand 516R", 5), ),
-        "517L": (CustomizedName("West Cargo Apron (502-517) | Stand 517L", 5), ),
-        "517R": (CustomizedName("West Cargo Apron (502-517) | Stand 517R", 5), ),
+        None : (westCargo, terminalOffset),
+        "516L": (CustomizedName("West Cargo Apron (502-517) | Stand 516L", 5), terminalOffset),
+        "516R": (CustomizedName("West Cargo Apron (502-517) | Stand 516R", 5), terminalOffset),
+        "517L": (CustomizedName("West Cargo Apron (502-517) | Stand 517L", 5), terminalOffset),
+        "517R": (CustomizedName("West Cargo Apron (502-517) | Stand 517R", 5), terminalOffset),
     },
 }
