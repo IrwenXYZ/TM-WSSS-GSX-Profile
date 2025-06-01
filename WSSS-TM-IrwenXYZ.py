@@ -70,7 +70,7 @@ parkings = {
         None : (terminal1Delta, terminalOffset),
     },
     GATE_E : {
-        None : (terminal2Echo, ),
+        None : (terminal2Echo, terminalOffset),
     },
     GATE_F : {
         None : (terminal2Foxtrot, ),
