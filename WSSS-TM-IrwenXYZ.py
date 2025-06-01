@@ -54,8 +54,8 @@ parkings = {
         605: (eastCargo, terminalOffset),
         606: (eastService, terminalOffset),
         609: (eastService, terminalOffset),
-        611: (acehub, ),
-        612: (acehub, ),
+        611: (acehub, terminalOffset),
+        612: (acehub, terminalOffset),
     },
     GATE_A : {
         None : (terminal3Alpha, terminalOffset),
