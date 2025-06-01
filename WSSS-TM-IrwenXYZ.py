@@ -82,7 +82,7 @@ parkings = {
         None : (changiAirbaseEast, ),
     },
     N_PARKING : {
-        None : (northRemote, ),
+        None : (northRemote, terminalOffset),
     },
     PARKING : {
         None : (siaHanger2, ),
