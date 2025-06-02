@@ -6,6 +6,27 @@ Like my work? Support me at https://ko-fi.com/irwenxyz
 ## What this profile includes
 - Custom named gates
 - Accurate wingspan for all gates
+- Proper parking positions
+
+### Parking Positions
+This profile includes proper parking positions for the following aircraft types
+- A300 (600)
+- A310 (300)
+- A320 (A318-A321)
+- A330 (900)
+- A350 (900, 1000)
+- A380 (800)
+- B737 (600-900)
+- B747 (8i)
+- B777 (200, 300)
+- B787 (9-10, -8 is present but untested)
+- Concorde
+- E170
+- E175
+- E190
+- E195
+
+NOTE: For Embraer aircrafts to work, the aircraft GSX profile MUST be populated with their respective ICAO codes (E170, E175, E190, or E195)
 
 ## Installation
 1. Ensure Microsoft Flight Simulator and GSX Pro are closed

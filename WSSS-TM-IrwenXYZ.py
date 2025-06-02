@@ -26,16 +26,58 @@ changiAirbaseWest = CustomizedName("Changi Airbase West | Stand #", 17)
 def terminalOffset(aircraftData):
     offset = {
         0: 0,
+        170: 5.7,
+        175: 5.7,
+        190: 8.3,
+        195: 8.3,
+        300: 8.2,
         310: 8.2,
+        318: 8.1,
+        319: 8.1,
         320: 8.3,
+        321: 8.2,
+        330: 10.9,
         380: 14.7,
         747: 14,
+        20000: 5.7,
     }
 
-    try:
-        return Distance.fromMeters(offset.get(aircraftData.idMajor))
-    except:
-        return Distance.fromMeters(0)
+    offset350 = {
+        900: 12.8,
+        1000: 14.8,
+    }
+
+    offset737 = {
+        600: 5.7,
+        700: 5.7,
+        800: 5.7,
+        900: 5.7,
+    }
+
+    offset777 = {
+        200: 12.9,
+        300: 12.8,
+    }
+
+    offset787 = {
+        8: 12.6,
+        9: 12.6,
+        10: 12.9,
+    }
+
+    if aircraftData.idMajor == 350:
+        return Distance.fromMeters(offset350.get(aircraftData.idMinor))
+    elif aircraftData.idMajor == 737:
+        return Distance.fromMeters(offset737.get(aircraftData.idMinor))
+    elif aircraftData.idMajor == 777:
+        return Distance.fromMeters(offset777.get(aircraftData.idMinor))
+    elif aircraftData.idMajor == 787:
+        return Distance.fromMeters(offset787.get(aircraftData.idMinor))
+    else:
+        try:
+            return Distance.fromMeters(offset.get(aircraftData.idMajor))
+        except:
+            return Distance.fromMeters(0)
 
 parkings = {
     E_PARKING : {
