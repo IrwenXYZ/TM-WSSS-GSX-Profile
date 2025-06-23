@@ -1,12 +1,15 @@
 # TaiModel's Singapore Changi Airport GSX Profile
 This profile is heavily work in progress. GSX Pro 3.3.3 or later must be used for this profile.
 
+Note: currently excluding South Apron, SIA Hanger 2, and CAB W/E because it's rarely used, will be updated in a future update.
+
 Like my work? Support me at https://ko-fi.com/irwenxyz
 
 ## What this profile includes
 - Custom named gates
 - Accurate wingspan for all gates
 - Proper parking positions
+- VDGS/Marshaller positions
 
 ### Parking Positions
 This profile includes proper parking positions for the following aircraft types
