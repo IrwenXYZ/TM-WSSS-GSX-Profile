@@ -10,6 +10,7 @@ Like my work? Support me at https://ko-fi.com/irwenxyz
 - Accurate wingspan for all gates
 - Proper parking positions
 - VDGS/Marshaller positions
+- Customised pushback positions
 
 ### Parking Positions
 This profile includes proper parking positions for the following aircraft types
