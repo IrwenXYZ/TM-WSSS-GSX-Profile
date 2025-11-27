@@ -18,6 +18,7 @@ This profile includes proper parking positions for the following aircraft types
 - A310 (300)
 - A320 (A318-A321)
 - A330 (900)
+- A340
 - A350 (900, 1000)
 - A380 (800)
 - B737 (600-900)
